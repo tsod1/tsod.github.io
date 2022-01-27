@@ -1,0 +1,90 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+}
+
+.main {
+    width: 1000px;
+    height: 700px;
+    background-color: darkslategray;
+    color: teal;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    outline: double;
+    outline-offset: 2px;
+}
+
+.wrapper {
+    width:100%;
+    margin : 0;
+
+}
+
+.image {
+    background-color:maroon;
+    border: 7px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    width:20%;
+    margin : 0;
+    float : right ;
+    justify-content: center;
+    vertical-align: text-bottom
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+
+
+.about {
+    background-color:maroon;
+    width: 75%;
+    border: 7px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    margin : 0;
+    float : left ;
+    color: white;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: teal;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/assets/background.jpg);
+    background-size: cover;
+    background-position: top center;
+    display: inline block;
+}
+
+nav {
+    position: absolute;
+    margin-top: 320px;
+    text-align: left;
+}
+
+.links {
+    width:fit-content;
+    font-size:14px;
+    text-align: left;
+    float:right;
+    position: relative;
+}
+
